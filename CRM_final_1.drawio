@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
   <diagram name="Page-1" id="FdGt-NXUC220iNuW0qdO">
-    <mxGraphModel dx="2379" dy="1306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="951" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,15 +176,15 @@
         </mxCell>
         <mxCell id="pTE95oLqJiWBprkI3Fes-285" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pTE95oLqJiWBprkI3Fes-284" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3" y="-3" as="offset" />
+            <mxPoint x="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3vQJnQZlK992A7GyFQRg-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pTE95oLqJiWBprkI3Fes-255" target="3vQJnQZlK992A7GyFQRg-34" edge="1">
+        <mxCell id="3vQJnQZlK992A7GyFQRg-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pTE95oLqJiWBprkI3Fes-255" target="3vQJnQZlK992A7GyFQRg-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="280.0000000000001" as="targetPoint" />
+            <mxPoint x="920" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3vQJnQZlK992A7GyFQRg-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3vQJnQZlK992A7GyFQRg-29" vertex="1" connectable="0">
+        <mxCell id="3vQJnQZlK992A7GyFQRg-30" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3vQJnQZlK992A7GyFQRg-29" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1" y="6" as="offset" />
           </mxGeometry>
@@ -457,17 +457,11 @@
         <mxCell id="3vQJnQZlK992A7GyFQRg-3" value="Tanks Sensor Reading Issue" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3vQJnQZlK992A7GyFQRg-23" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Device Issue: Offline: InvalidReading&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFCCCC);strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
-          <mxGeometry x="1080" y="205" width="100" height="100" as="geometry" />
+        <mxCell id="3vQJnQZlK992A7GyFQRg-23" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Device Issue: Offline: RejectedReading&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFCCCC);strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
+          <mxGeometry x="870" y="200" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3vQJnQZlK992A7GyFQRg-33" value="Offline means&amp;nbsp;&lt;div&gt;last_sent_shadow &amp;gt; 30 mins&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="380" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3vQJnQZlK992A7GyFQRg-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3vQJnQZlK992A7GyFQRg-34" target="3vQJnQZlK992A7GyFQRg-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3vQJnQZlK992A7GyFQRg-34" value="Invalid Readings&lt;div&gt;1. Radar (mm) = 50 - 20,000&lt;div&gt;2. Ultrasonic (mm) = 220 - 7010&lt;/div&gt;&lt;div&gt;3. ds &amp;gt; tank height&lt;/div&gt;&lt;div&gt;4. vb = -1&lt;/div&gt;&lt;div&gt;5. z_score&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="815" y="210" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3vQJnQZlK992A7GyFQRg-35" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Device Issue: Offline&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFCCCC);strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="1060" y="380" width="80" height="80" as="geometry" />
@@ -476,7 +470,7 @@
           <mxGeometry x="760" y="1070" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3vQJnQZlK992A7GyFQRg-46" value="ds in app is shown in cm&amp;nbsp;&lt;div&gt;ds in powertools is shown in mm&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="720" y="150" width="190" height="30" as="geometry" />
+          <mxGeometry x="1010" y="170" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3vQJnQZlK992A7GyFQRg-47" value="Water is not filling in Tank" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="396" y="1420" width="120" height="60" as="geometry" />
@@ -495,20 +489,26 @@
         <mxCell id="pXSc2SMAboG4A-o_Wxni-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" parent="1" vertex="1">
           <mxGeometry x="20" y="430" width="226.7" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="MkPmFV9LTCbo7IiXiJR2-1" value="Water is more than configured % or overflow happened" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MkPmFV9LTCbo7IiXiJR2-1" value="Water is more than configured % or overflow happened" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="396" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MkPmFV9LTCbo7IiXiJR2-3" value="Mention if all devices are of same device_type or different device_type" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MkPmFV9LTCbo7IiXiJR2-3" value="Mention if all devices are of same device_type or different device_type" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="675" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="MkPmFV9LTCbo7IiXiJR2-5" value="{{device_name|}} {{device_type}} is offline&lt;div&gt;Domestic A Tank is offline.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MkPmFV9LTCbo7IiXiJR2-5" value="{{device_name|}} {{device_type}} is offline&lt;div&gt;Domestic A Tank is offline.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="880" y="527.5" width="240" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="MkPmFV9LTCbo7IiXiJR2-6" value="{{number|}} {{device_type}} are offline&lt;div&gt;Eg. 4 Tanks are Offline. 3 Motors are offline&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MkPmFV9LTCbo7IiXiJR2-6" value="{{number|}} {{device_type}} are offline&lt;div&gt;Eg. 4 Tanks are Offline. 3 Motors are offline&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="815" y="850" width="240" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="MkPmFV9LTCbo7IiXiJR2-8" value="Router Issue" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MkPmFV9LTCbo7IiXiJR2-8" value="Router Issue" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1070" y="687.5" width="120" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FGDJhqLa_PLlc_e9oDoY-1" value="Invalid Readings&lt;div&gt;1. Radar (mm) = 50 - 20,000&lt;div&gt;2. Ultrasonic (mm) = 220 - 7010&lt;/div&gt;&lt;div&gt;3. ds &amp;gt; tank height&lt;/div&gt;&lt;div&gt;4. vb = -1&lt;/div&gt;&lt;div&gt;5. z_score&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="205" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FGDJhqLa_PLlc_e9oDoY-3" value="in case of wrong reading due to sensor issue 60% are offline" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="320" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
